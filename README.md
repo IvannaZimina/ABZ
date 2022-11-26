@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Landing_page-React-AJAX-SCSS-
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Task
+Frontend Developer Test Assignment
 
-## Available Scripts
+## Stack front-end
+JavaScript, React.js, Redux, SASS, AJAX, PixelParallel
 
-In the project directory, you can run:
+## Description
+According to the test-task:
+There is only one page with a deliberately minimized set of styles and components to keep the test assignment as short as possible.
+Implement the “Working with a GET request” block according to the mockup and API documentation.
 
-### `npm start`
+The "Show more" button should be hidden when the last page of API query results is reached. Users are sorted by registration date (the newest first).
+To display radio buttons on the registration form, use the GET /positions method from the API documentation.
+Implement the business logic of the registration form in accordance with mockups and API documentation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+After successful registration, update the list of users in the “Working with a GET request” block.
+If the “Show more” button has been clicked (i.e. more than one page of users has been loaded from the API), collapse all and display only the first page of the result of the GET request. As a result, the new user will be displayed first and you will be able to check the correctness of the form without reloading the page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Check your work using Google Chrome Performance Audit / Lighthouse and make sure your work is in the green zone for Performance, Best practices, SEO (mobile and desktop for 3G).
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Environment
+Clone project to your machine. Use npm install to add all dependencies in project and use script for starting web-app.
