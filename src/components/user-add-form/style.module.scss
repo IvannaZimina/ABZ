@@ -1,0 +1,147 @@
+.userAddedForm {
+  font-family: "Nonito-Regular",
+    Arial,
+    Helvetica,
+    sans-serif;
+  margin-bottom: 20px;
+
+  .formIncorrect {
+    width: 380px;
+    margin: 0 auto;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .formSuccess {
+    width: 380px;
+    height: 500px;
+    margin: 0 auto;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .personalData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      padding: 14px;
+      font-size: 16px;
+      width: 350px;
+      height: 24px;
+      margin-top: 48px;
+      border-radius: 5px;
+      border: 1px solid gray;
+
+      &:invalid {
+        border: 1px solid red;
+      }
+
+      &:required {
+        background-color: rgb(247, 162, 162);
+      }
+    }
+  }
+
+  .selectInput {
+    width: 380px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+
+    .titleSelect {
+      margin-top: 50px;
+    }
+
+    label {
+      font-size: 16px;
+      line-height: 30px;
+      display: flex;
+
+      p {
+        margin: 0 0 0 18px;
+      }
+
+      input {
+        transform: scale(1.5);
+        opacity: 0.9;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .userPhoto {
+    width: 380px;
+    margin: 0 auto;
+
+    .fileUploadWrapper {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      border-radius: 5px;
+      border: 1px solid rgb(198, 197, 197);
+      font-size: 16px;
+
+      &::before {
+        content: 'Upload';
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        z-index: 25;
+        line-height: 40px;
+        height: 40px;
+        padding: 5px 15px;
+        border: 1px solid rgb(198, 197, 197);
+        border-radius: 5px 0 0 5px;
+      }
+
+      &::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 85px;
+        padding: 5px 15px;
+        z-index: 20;
+        height: 50px;
+        line-height: 40px;
+        color: #999;
+        border-radius: 5px 10px 10px 5px;
+      }
+
+      input {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 99;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+        width: 100%;
+        height: 50px;
+      }
+    }
+  }
+
+  button {
+    background-color: rgb(209, 209, 209);
+    margin: 4.5% 46%;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #F4E041;
+      box-shadow: 0px 1px 6px 0px rgba(100, 99, 0, 0.84);
+      color: gray
+    }
+  }
+}

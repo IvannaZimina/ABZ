@@ -1,0 +1,6 @@
+export const USERS = "USERS"
+export const LOADING = "LOADING"
+export const LOAD_FAILED = "LOAD_FAILED"
+export const ADD_USER = "ADD_USER"
+export const POSITIONS = "POSITIONS"
+export const USER_TOKEN = "USER_TOKEN"

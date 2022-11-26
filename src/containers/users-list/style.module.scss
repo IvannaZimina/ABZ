@@ -1,0 +1,23 @@
+.usersContainer {
+
+  .usersCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 22px;
+    margin-top: 47px;
+  }
+
+  .showMoreBtn {
+    margin: 0 45%;
+
+    button {
+      width: 115px;
+      background-color: #F4E041;
+
+      &:hover {
+        box-shadow: 0px 1px 6px 0px rgba(100, 99, 0, 0.84);
+      }
+    }
+  }
+}
